@@ -18,6 +18,8 @@ Please make sure you've already installed Truffe and enabled MetaMask extension 
 ```
 - Truffle v5.4.3
 - Solidity>=0.4.21 <0.7.0
+- web3 1.2.2
+- node v14.16.0
 ```
 
 ### Installing
