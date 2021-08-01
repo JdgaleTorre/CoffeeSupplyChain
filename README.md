@@ -2,6 +2,11 @@
 
 To Create this proyect I used the truffle box with React. [box](https://www.trufflesuite.com/boxes/react).
 
+```
+---- Rinkeby Network
+Contract: 0xeD3fc69de1ddc5052FD338a2Cf6B270765781b44
+```
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -42,18 +47,18 @@ Your terminal should look something like this:
 
 ![truffle develop](images/truffleDevelop.png)
 
-Compile smart contracts:
+Compile smart contracts on other terminal:
 
 ```
-compile
+truffle compile
 ```
 
 This will create the smart contract artifacts in folder `client\src\contracts`.
 
-Migrate smart contracts to the locally running blockchain, truffle:
+Migrate smart contracts to the locally running blockchain, truffle on other terminal:
 
 ```
-migrate
+truffle migrate --network develop
 ```
 
 Test smart contracts:

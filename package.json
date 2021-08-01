@@ -1,0 +1,25 @@
+{
+  "name": "coffee_supply_chain",
+  "version": "1.0.0",
+  "description": "To Create this proyect I used the truffle box with React. [box](https://www.trufflesuite.com/boxes/react).",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JdgaleTorre/CoffeeSupplyChain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JdgaleTorre/CoffeeSupplyChain/issues"
+  },
+  "homepage": "https://github.com/JdgaleTorre/CoffeeSupplyChain#readme",
+  "dependencies": {
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
