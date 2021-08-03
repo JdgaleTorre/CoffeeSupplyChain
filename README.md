@@ -5,6 +5,7 @@ To Create this proyect I used the truffle box with React. [box](https://www.truf
 ```
 ---- Rinkeby Network
 Contract: 0xeD3fc69de1ddc5052FD338a2Cf6B270765781b44
+Transaction Hash: 0x4ceb8fb6f87ff83f750b511270bb934b655480b4e0631084eb88ba097bada2e4
 ```
 
 ## Getting Started
@@ -21,6 +22,14 @@ Please make sure you've already installed Truffe and enabled MetaMask extension 
 - web3 1.2.2
 - node v14.16.0
 ```
+
+**Why these library**
+Because I couldn't run the boilerplate of the project, I decided to start with a Truffle Box with react.
+This Box needs a more actual Truffle version. Therefore I choose to actualize all the libraries to a more new version.
+So with Truffe v5.4.3, I could use Solidity between 0.4.21 and 0.7.0, with this I think the project would be more like a real-world project.
+To better control the Ethereum provider, I used Web 3 v1.2.2.
+And Node v14.16.0, its the version of Node that I used daily.
+
 
 ### Installing
 
